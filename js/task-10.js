@@ -18,6 +18,7 @@ buttonCreate.addEventListener("click", onButtonCreate);
 buttonDestroy.addEventListener("click", onButtonDestroy);
 
 function onButtonCreate() {
+  onButtonDestroy();
   createBoxes(numberPicked.value);
 }
 
