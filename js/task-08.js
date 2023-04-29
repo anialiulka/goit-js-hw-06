@@ -14,6 +14,7 @@ function onSubmitForm() {
 
   if (email === "" || password === "") {
     alert("Всі поля мають бути заповнені");
+    return;
   }
 
   const values = { ...elements };
